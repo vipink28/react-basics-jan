@@ -19,3 +19,11 @@ code {
 .bg-secondary{
   background-color: cadetblue;
 }
+
+.card{
+  background-color: burlywood;
+  border: 2px solid rebeccapurple;
+  width: 400px;
+  border-radius: 25px;
+  padding: 15px;
+}
