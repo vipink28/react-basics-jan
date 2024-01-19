@@ -12,18 +12,37 @@ code {
     monospace;
 }
 
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.column{
+  width: 33.33%;
+  flex: 1 1 0;
+}
+.card{
+  background-color: burlywood;
+  border: 2px solid rebeccapurple;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.options{
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
 .bg-primary{
   background-color: blueviolet;
 }
 
 .bg-secondary{
   background-color: cadetblue;
-}
-
-.card{
-  background-color: burlywood;
-  border: 2px solid rebeccapurple;
-  width: 400px;
-  border-radius: 25px;
-  padding: 15px;
 }
