@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Row from './Row';
+import AppContext from '../context/AppContext';
 
 function StudentsList(props) {
     const data = [
@@ -18,8 +19,11 @@ function StudentsList(props) {
         setStudentsData(filteredArray);
     }
 
+    const contextData = useContext(AppContext);
+
     return (
         <div>
+            <h1>{contextData}</h1>
             <table>
                 <thead>
                     <tr>
